@@ -1,6 +1,6 @@
 Created 29-04-2021
 
-This file contains relevant code for the final version of paper "Predicting the probability of death using protomics".
+This file contains relevant code for the final version of the paper "Predicting the probability of death using proteomics".
 
 Mor_feature_ranking.ipynb  - Examining feature ranking, predicting, testing and plotting
 Mor_heritability.ipynb  -  Calculate heritability, correlation between siblings and parent offspring correlations
@@ -23,8 +23,8 @@ Mor_predict.py -  Train prediction models
 Mor_univariate.py  -  Univariate protein phenotype associations
 Mor_predict_single_protein.py  -  Train prediction models with single proteins
 
-association_functions.py - Functions used in Mor_pred_associations to correct and calculate associations between predictions and phenotypes.
-Calculate_score.py - Functions to calculate scores for predictions
-helpers_pat.py - Implementation of the Hyperopt tuner for testing XGB and MLP. Code by Pat Zhang.
+association_functions.py - Functions used in Mor_pred_associations.ipynb to correct and calculate associations between predictions and phenotypes.
+Calculate_score.py - Functions to calculate predictions scores.
+helpers_pat.py - Class for hyperparameter tuning using hyperopt for testing XGB and MLP. Code by Pat Zhang, Amgen, 2019.
 Predict_functions.py - Functions with all the used prediction methods, in most cases just a wrapper around common scikit-learn functions.
 R_functions.py - A wrapper using rpy2 to access R functions.
