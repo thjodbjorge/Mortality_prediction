@@ -1,5 +1,3 @@
-Created 29-04-2021
-
 This file contains relevant code for the final version of the paper "Predicting the probability of death using proteomics".
 
 Mor_feature_ranking.ipynb  - Examining feature ranking, predicting, testing and plotting
